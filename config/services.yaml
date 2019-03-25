@@ -5,6 +5,8 @@
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: 'en'
+    codcov_token: ecbbcfffe2f44a9e99ca94d76d7a1000
+    coveralls_token: i5xgseso51g5bGSsgEqFWWyNxWQxomJidMvhw
 
 services:
     # default configuration for services in *this* file

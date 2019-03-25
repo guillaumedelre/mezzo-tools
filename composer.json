@@ -1,6 +1,8 @@
 {
     "type": "project",
     "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "require": {
         "php": "^7.1.3",
         "ext-ctype": "*",
@@ -58,6 +60,17 @@
     },
     "require-dev": {
         "behat/behat": "^3.5",
-        "symfony/phpunit-bridge": "4.2.*"
+        "behat/mink": "^1.7@dev",
+        "behat/mink-browserkit-driver": "^1.3@dev",
+        "behat/mink-extension": "^2.1@dev",
+        "behat/symfony2-extension": "^2.1@dev",
+        "behatch/contexts": "^3.0@dev",
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "phpstan/phpstan": "^0.11.4",
+        "phpstan/phpstan-phpunit": "^0.11.0",
+        "phpstan/phpstan-symfony": "^0.11.2",
+        "phpunit/php-code-coverage": "^7.0",
+        "symfony/phpunit-bridge": "4.2.*",
+        "symfony/test-pack": "^1.0"
     }
 }
