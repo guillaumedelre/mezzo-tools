@@ -12,4 +12,3 @@ parameters:
         constant_hassers: false
     excludes_analyse:
         - %rootDir%/../../../var/cache
-        - %rootDir%/../../../vendor
