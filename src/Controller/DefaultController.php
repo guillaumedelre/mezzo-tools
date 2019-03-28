@@ -19,6 +19,7 @@ class DefaultController extends AbstractController
     public function index(MyService $myService)
     {
         $myService->setDataBy('test', ['property' => 'value']);
+
         return $this->json([
             'message' => $myService->getDataByKey('test'),
             'path' => 'src/Controller/DefaultController.php',
