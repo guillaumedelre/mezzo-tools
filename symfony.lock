@@ -248,18 +248,6 @@
     "symfony/inflector": {
         "version": "4.2.x-dev"
     },
-    "symfony/messenger": {
-        "version": "4.1",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "4.1",
-            "ref": "f11dfa18618a8a5dd853ea3a302db2e0557e031c"
-        },
-        "files": [
-            "config/packages/messenger.yaml"
-        ]
-    },
     "symfony/options-resolver": {
         "version": "v4.2.4"
     },
